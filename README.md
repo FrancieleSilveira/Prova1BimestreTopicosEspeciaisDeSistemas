@@ -51,8 +51,17 @@
 na parte “scripts”  do package.json
 <br>
 <br>
-* Criar: novo **arquivo** *src/server.ts* , com isso sera criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
-<br>
+<h3>Organização de pastas</h3>
+
+* Criar: novo **arquivo** *src/server.ts* , com isso será criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
+
+* Criar: dentro da **pasta** *src* , uma **pasta** *config* e uma **pasta** *controllers* 
+
+As pastas do seu projeto devem estar assim:
+
+<img src="https://cdn.discordapp.com/attachments/848586232116412466/848586592859979786/arquiteturaPastas.png">
+
+
 <h2>Para testar se está rodando como deveria</h2>
 
 * Escreva dentro do arquivo *Server.ts* : 
