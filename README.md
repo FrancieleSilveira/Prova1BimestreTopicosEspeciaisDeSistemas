@@ -2,8 +2,8 @@
 
 * `npm init -y`
  
-<tab>**Descrição:** Cria um projeto em Node.js. O argumento -y ignora todas as perguntas sobre as informações do projeto, que podem ser alteradas no arquivo package.json.
-
+     **Descrição:** Cria um projeto em Node.js. O argumento -y ignora todas as perguntas sobre as informações do projeto, que podem ser alteradas no arquivo package.json.
+<br>
 
 * `npm install express`
 
