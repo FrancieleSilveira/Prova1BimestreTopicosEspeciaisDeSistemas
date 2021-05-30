@@ -1,5 +1,7 @@
 <h1>Criação e configuração de um projeto Node.js com TypeScript</h1>
 
+<h2>Abrir o Visual Studio Code em uma pasta vazia, e no terminal, executar os seguintes comandos na sequência:</h2>
+
 * `npm init -y`
 
      **Descrição:** Cria um projeto em Node.js. O argumento -y ignora todas as perguntas sobre as informações do projeto, que podem ser alteradas no arquivo package.json.
