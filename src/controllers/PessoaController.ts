@@ -7,7 +7,8 @@ class PessoaController{
     }
 
     async buscarPorCpf(request: Request, response: Response) {
-        response.status(200).json({msg: "Rota da busca" });
+        const { cpf } = request.params; // .params pega o parametro da url
+        response.status(200).json(await PessoaSchema.find({ cpf }));
     }
 
     async cadastrar(request: Request, response: Response) {
@@ -30,11 +31,13 @@ class PessoaController{
     }
 
     async alterar(request: Request, response: Response) {
-        response.status(200).json({msg: "Rota da alteração" });
+        const { cpf } = request.body; // .body pega o pametro(cpf) do corpo
+        response.status(200).json(await PessoaSchema.findOneAndUpdate({ cpf }, request.body));
     }
 
     async deletar(request: Request, response: Response) {
-        response.status(200).json({msg: "Rota para deletar" });
+        const { cpf } = request.params; // .params pega o parametro(cpf) da url
+        response.status(200).json(await PessoaSchema.findOneAndDelete({ cpf }));
     }
 }
 
