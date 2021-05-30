@@ -65,6 +65,7 @@ na parte “scripts”  do package.json
 
     **Descrição:** Executa o script configurado no arquivo package.json, roda a aplicação.
     
-* Se no terminal aparecer a mensagem: **Testando a configuração de ambiente**, seu ambiente está proto para iniciar o projeto.
+    
+* Se no terminal aparecer a mensagem: `Testando a configuração de ambiente`, seu ambiente está proto para iniciar o projeto.
 
 
