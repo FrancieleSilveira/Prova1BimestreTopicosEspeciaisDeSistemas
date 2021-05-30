@@ -44,7 +44,7 @@
 
 * Acrescentar: 
 
-                //"dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" 
+                "dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" 
                 
                 na parte “scripts”  do package.json
 <br>
