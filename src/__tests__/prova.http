@@ -1,5 +1,12 @@
 ###
 POST http://localhost:1234/pessoa/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Franciele Silveira",
+    "cpf": "1234",
+    "idade": 29
+}
 
 ###
 GET http://localhost:1234/pessoa/buscar/123
