@@ -64,8 +64,8 @@ na parte “scripts”  do package.json
 * `npm run dev`
 
     **Descrição:** Executa o script configurado no arquivo package.json, roda a aplicação.
+<br>
     
-    
-* Se no terminal aparecer a mensagem: `Testando a configuração de ambiente`, seu ambiente está proto para iniciar o projeto.
+* Se no terminal aparecer a mensagem: `Testando a configuração de ambiente`, seu ambiente está pronto para iniciar o projeto.
 
 
