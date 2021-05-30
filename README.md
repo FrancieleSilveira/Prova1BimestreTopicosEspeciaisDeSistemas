@@ -42,7 +42,8 @@
 
 <h3>IMPORTANTE</h3>
 * Acrescentar: 
-                `"dev":` "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" na parte “scripts”  do package.json
+
+                //"dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" na parte “scripts”  do package.json
 <br>
 
 * Criar: novo **arquivo** *src/server.ts* , com isso sera criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
