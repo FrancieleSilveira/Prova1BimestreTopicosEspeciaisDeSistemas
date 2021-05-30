@@ -48,9 +48,11 @@
 
         "dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" 
                 
-na parte “scripts”  do package.json
-<br>
-<br>
+na parte “scripts” do **arquivo** *package.json* , como na imagem:
+
+<img src="https://cdn.discordapp.com/attachments/848586232116412466/848588058949189682/scripts.png">
+
+
 <h3>Organização de pastas</h3>
 
 * Criar: novo **arquivo** *src/server.ts* , com isso será criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
