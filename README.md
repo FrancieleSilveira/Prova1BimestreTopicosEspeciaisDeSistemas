@@ -98,7 +98,8 @@ A arquitetura do seu projeto devem estar assim:
 
 * Se no terminal aparecer a mensagem: 
         
-`O servidor está rodando...<br>
+`O servidor está rodando...
+
 Aplicação conectada ao banco de dados`
 
 Está tudo certo até aqui!
