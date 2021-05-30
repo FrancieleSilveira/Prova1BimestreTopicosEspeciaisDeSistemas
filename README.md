@@ -1,6 +1,6 @@
 <h1>Criação e configuração de um projeto Node.js com TypeScript</h1>
 
-<h2>Abrir o Visual Studio Code em uma pasta vazia, e no terminal, executar os seguintes comandos na sequência:</h2>
+<h3>Abrir o Visual Studio Code em uma pasta vazia, e no terminal, executar os seguintes comandos na sequência:</h2>
 
 * `npm init -y`
 
@@ -64,7 +64,7 @@ A arquitetura do seu projeto devem estar assim:
 <img src="https://cdn.discordapp.com/attachments/848586232116412466/848594125812138044/arquitetura.png">
 
 
-<h2>Para testar se está rodando como deveria</h2>
+<h3>Para testar se está rodando como deveria</h2>
 
 * Escreva dentro do arquivo *Server.ts* : 
     
@@ -78,5 +78,32 @@ A arquitetura do seu projeto devem estar assim:
 <br>
     
 * Se no terminal aparecer a mensagem: `Testando a configuração de ambiente`, seu ambiente está pronto para iniciar o projeto.
+
+<h2>Conectando com o banco de dados</h2>
+<h3>(Para essa etapa você precisa ter uma conta no MongoDB)</h3>
+
+* Na **pasta** *config* criar o **arquivo** *database.ts*
+
+* Adicionar o seguinte script no **arquivo** *database.ts*:
+
+<img src="https://cdn.discordapp.com/attachments/848586232116412466/848623215176581160/database.png">
+
+* Lembrando de substituir os campos da conexão, conforme informado no MongoDB
+        
+* No **arquivo** *server.ts* adicicionar o seguinte script;
+
+<img src="https://cdn.discordapp.com/attachments/848586232116412466/848623219690569748/server.png">
+
+* `npm run dev`
+
+* Se no terminal aparecer a mensagem: 
+        
+`O servidor está rodando...
+Aplicação conectada ao banco de dados`
+
+Está tudo certo até aqui!
+
+
+
 
 
