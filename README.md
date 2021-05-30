@@ -58,6 +58,7 @@ na parte “scripts”  do package.json
         console.clear();
         console.log("Testando a configuração de ambiente");
 <br>
+
 * `npm run dev`
 
     **Descrição:** Executa o script configurado no arquivo package.json, roda a aplicação.
