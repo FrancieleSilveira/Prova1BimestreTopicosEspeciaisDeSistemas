@@ -6,7 +6,7 @@ class PessoaController{
         response.status(200).json({msg: "Rota da listagem" });
     }
 
-    async buscarPorId(request: Request, response: Response) {
+    async buscarPorCpf(request: Request, response: Response) {
         response.status(200).json({msg: "Rota da busca" });
     }
 
@@ -14,12 +14,12 @@ class PessoaController{
         response.status(200).json({msg: "Rota do cadastro" });
     }
 
-    async deletar(request: Request, response: Response) {
-        response.status(200).json({msg: "Rota para deletar" });
-    }
-
     async alterar(request: Request, response: Response) {
         response.status(200).json({msg: "Rota da alteração" });
+    }
+
+    async deletar(request: Request, response: Response) {
+        response.status(200).json({msg: "Rota para deletar" });
     }
 }
 

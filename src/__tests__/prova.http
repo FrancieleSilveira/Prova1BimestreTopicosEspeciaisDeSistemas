@@ -1,0 +1,14 @@
+###
+POST http://localhost:1234/pessoa/cadastrar
+
+###
+GET http://localhost:1234/pessoa/buscar/123
+
+###
+GET http://localhost:1234/pessoa/listar
+
+###
+PUT http://localhost:1234/pessoa/alterar
+
+###
+DELETE http://localhost:1234/pessoa/remover/123
