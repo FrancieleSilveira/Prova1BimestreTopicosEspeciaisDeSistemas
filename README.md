@@ -48,8 +48,7 @@
                 
 na parte “scripts”  do package.json
 <br>
-
-
+<br>
 * Criar: novo **arquivo** *src/server.ts* , com isso sera criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
 <br>
 <h2>Para testar se está rodando como deveria</h2>
@@ -58,8 +57,7 @@ na parte “scripts”  do package.json
     
         console.clear();
         console.log("Testando a configuração de ambiente");
-
-
+<br>
 * `npm run dev`
 
     **Descrição:** Executa o script configurado no arquivo package.json, roda a aplicação.
