@@ -57,11 +57,11 @@ na parte “scripts” do **arquivo** *package.json* , como na imagem:
 
 * Criar: novo **arquivo** *src/server.ts* , com isso será criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
 
-* Criar: dentro da **pasta** *src* , uma **pasta** *config* e uma **pasta** *controllers* 
+* Criar: dentro da **pasta** *src* , uma **pasta** *config* , uma **pasta** *controllers* e uma **pasta** *models*
 
-As pastas do seu projeto devem estar assim:
+A arquitetura do seu projeto devem estar assim:
 
-<img src="https://cdn.discordapp.com/attachments/848586232116412466/848586592859979786/arquiteturaPastas.png">
+<img src="https://cdn.discordapp.com/attachments/848586232116412466/848594125812138044/arquitetura.png">
 
 
 <h2>Para testar se está rodando como deveria</h2>
