@@ -41,14 +41,15 @@
 <br>
 
 <h3>IMPORTANTE</h3>
-* Acrescentar: ``"dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server"`` na parte “scripts”  do package.json
+* Acrescentar: 
+                `"dev":` "ts-node-dev --transpile-only --ignore-watch node_modules ./src/server" na parte “scripts”  do package.json
 <br>
 
-* Criar: 
-novo **arquivo** *src/server.ts* , com isso sera criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
+* Criar: novo **arquivo** *src/server.ts* , com isso sera criada uma **pasta** *src* com um **arquivo** *server.ts* dentro
 <br>
 <h2>Para testar se está rodando como deveria</h2>
-* Escreva dentro do arquibo *Server.ts* : //console.clear();
+
+* Escreva dentro do arquivo *Server.ts* : //console.clear();
 console.log("Testando a configuração de ambiente");//
 
 * `npm run dev`
