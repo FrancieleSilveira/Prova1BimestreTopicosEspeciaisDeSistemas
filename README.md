@@ -1,24 +1,23 @@
 <h1>Criação e configuração de um projeto Node.js com TypeScript</h1>
 
 * `npm init -y`
- 
      **Descrição:** Cria um projeto em Node.js. O argumento -y ignora todas as perguntas sobre as informações do projeto, que podem ser alteradas no arquivo package.json.
 <br>
 
 * `npm install express`
 
-**Descrição:** Instala a biblioteca do express.
-
+     **Descrição:** Instala a biblioteca do express.
+<br>
 
 * `npm install mongoose`
 
-**Descrição:** Instala a biblioteca do mongoose.
- 
+     **Descrição:** Instala a biblioteca do mongoose.
+<br>
  
 * `npm install typescript -g`
 
-**Descrição:** Instala a biblioteca do typescript. O argumento -g instala a biblioteca de forma global na máquina, portanto **só precisa ser executado no primeiro projeto**
- 
+     **Descrição:** Instala a biblioteca do typescript. O argumento -g instala a biblioteca de forma global na máquina, portanto **só precisa ser executado no primeiro projeto**
+<br>
  
 * `tsc --init`
 
